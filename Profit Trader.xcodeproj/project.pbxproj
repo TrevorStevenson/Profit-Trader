@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A090A76197B5EF500E0BD1C /* TopSecretViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A090A75197B5EF500E0BD1C /* TopSecretViewController.m */; };
+		3A090AC0197D8CDA00E0BD1C /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A090ABF197D8CDA00E0BD1C /* OptionViewController.m */; };
+		3A3FACA51D1C8182003FF42B /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3FACA41D1C8181003FF42B /* Chartboost.framework */; };
+		3A7608C91A5082B100734EC7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7608C81A5082B100734EC7 /* CFNetwork.framework */; };
+		3A7608CB1A5082BC00734EC7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7608CA1A5082BC00734EC7 /* CoreLocation.framework */; };
+		3A7608CD1A5082C500734EC7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7608CC1A5082C500734EC7 /* MobileCoreServices.framework */; };
+		3A7608CF1A5082CE00734EC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7608CE1A5082CE00734EC7 /* QuartzCore.framework */; };
+		3A7608D11A5082D800734EC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7608D01A5082D800734EC7 /* Security.framework */; };
+		3A7608D31A5082E300734EC7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7608D21A5082E300734EC7 /* SystemConfiguration.framework */; };
+		3AF4BCD71983460C004C6173 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA9F3AA195D0AC600006D46 /* StoreKit.framework */; };
+		3AF4BCDA19834612004C6173 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF4BCD919834612004C6173 /* AudioToolbox.framework */; };
+		3BA9F371195D0A9A00006D46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA9F370195D0A9A00006D46 /* Foundation.framework */; };
+		3BA9F373195D0A9A00006D46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA9F372195D0A9A00006D46 /* CoreGraphics.framework */; };
+		3BA9F375195D0A9A00006D46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA9F374195D0A9A00006D46 /* UIKit.framework */; };
+		3BA9F37B195D0A9A00006D46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9F379195D0A9A00006D46 /* InfoPlist.strings */; };
+		3BA9F37D195D0A9A00006D46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9F37C195D0A9A00006D46 /* main.m */; };
+		3BA9F381195D0A9A00006D46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9F380195D0A9A00006D46 /* AppDelegate.m */; };
+		3BA9F384195D0A9A00006D46 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9F382195D0A9A00006D46 /* Main_iPhone.storyboard */; };
+		3BA9F387195D0A9A00006D46 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9F385195D0A9A00006D46 /* Main_iPad.storyboard */; };
+		3BA9F38C195D0A9A00006D46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9F38B195D0A9A00006D46 /* Images.xcassets */; };
+		3BA9F394195D0A9A00006D46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA9F370195D0A9A00006D46 /* Foundation.framework */; };
+		3BA9F395195D0A9A00006D46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA9F374195D0A9A00006D46 /* UIKit.framework */; };
+		3BA9F39D195D0A9A00006D46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9F39B195D0A9A00006D46 /* InfoPlist.strings */; };
+		3BA9F39F195D0A9A00006D46 /* TradeGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9F39E195D0A9A00006D46 /* TradeGameTests.m */; };
+		3BA9F3B0195D0B0100006D46 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9F3AF195D0B0100006D46 /* MenuViewController.m */; };
+		3BA9F3B3195D0B0900006D46 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9F3B2195D0B0900006D46 /* GameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BA9F396195D0A9A00006D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA9F365195D0A9A00006D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA9F36C195D0A9A00006D46;
+			remoteInfo = TradeGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A090A74197B5EF500E0BD1C /* TopSecretViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSecretViewController.h; sourceTree = "<group>"; };
+		3A090A75197B5EF500E0BD1C /* TopSecretViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSecretViewController.m; sourceTree = "<group>"; };
+		3A090ABE197D8CDA00E0BD1C /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
+		3A090ABF197D8CDA00E0BD1C /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
+		3A3FACA41D1C8181003FF42B /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		3A7608C81A5082B100734EC7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3A7608CA1A5082BC00734EC7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3A7608CC1A5082C500734EC7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3A7608CE1A5082CE00734EC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3A7608D01A5082D800734EC7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3A7608D21A5082E300734EC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3AF4BCD819834612004C6173 /* Profit Trader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Profit Trader.entitlements"; sourceTree = "<group>"; };
+		3AF4BCD919834612004C6173 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3BA9F36D195D0A9A00006D46 /* Profit Trader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profit Trader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA9F370195D0A9A00006D46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BA9F372195D0A9A00006D46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BA9F374195D0A9A00006D46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BA9F378195D0A9A00006D46 /* Profit Trader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Profit Trader-Info.plist"; sourceTree = "<group>"; };
+		3BA9F37A195D0A9A00006D46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BA9F37C195D0A9A00006D46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BA9F37E195D0A9A00006D46 /* Profit Trader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Profit Trader-Prefix.pch"; sourceTree = "<group>"; };
+		3BA9F37F195D0A9A00006D46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BA9F380195D0A9A00006D46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BA9F383195D0A9A00006D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3BA9F386195D0A9A00006D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3BA9F38B195D0A9A00006D46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BA9F391195D0A9A00006D46 /* Profit TraderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Profit TraderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA9F39A195D0A9A00006D46 /* Profit TraderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Profit TraderTests-Info.plist"; sourceTree = "<group>"; };
+		3BA9F39C195D0A9A00006D46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BA9F39E195D0A9A00006D46 /* TradeGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeGameTests.m; sourceTree = "<group>"; };
+		3BA9F3AA195D0AC600006D46 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3BA9F3AE195D0B0100006D46 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		3BA9F3AF195D0B0100006D46 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		3BA9F3B1195D0B0900006D46 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		3BA9F3B2195D0B0900006D46 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA9F36A195D0A9A00006D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7608D31A5082E300734EC7 /* SystemConfiguration.framework in Frameworks */,
+				3A7608D11A5082D800734EC7 /* Security.framework in Frameworks */,
+				3A7608CF1A5082CE00734EC7 /* QuartzCore.framework in Frameworks */,
+				3A7608CD1A5082C500734EC7 /* MobileCoreServices.framework in Frameworks */,
+				3A7608CB1A5082BC00734EC7 /* CoreLocation.framework in Frameworks */,
+				3A7608C91A5082B100734EC7 /* CFNetwork.framework in Frameworks */,
+				3A3FACA51D1C8182003FF42B /* Chartboost.framework in Frameworks */,
+				3BA9F373195D0A9A00006D46 /* CoreGraphics.framework in Frameworks */,
+				3AF4BCD71983460C004C6173 /* StoreKit.framework in Frameworks */,
+				3AF4BCDA19834612004C6173 /* AudioToolbox.framework in Frameworks */,
+				3BA9F375195D0A9A00006D46 /* UIKit.framework in Frameworks */,
+				3BA9F371195D0A9A00006D46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA9F38E195D0A9A00006D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA9F395195D0A9A00006D46 /* UIKit.framework in Frameworks */,
+				3BA9F394195D0A9A00006D46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA9F364195D0A9A00006D46 = {
+			isa = PBXGroup;
+			children = (
+				3AF4BCD819834612004C6173 /* Profit Trader.entitlements */,
+				3BA9F376195D0A9A00006D46 /* TradeGame */,
+				3BA9F398195D0A9A00006D46 /* TradeGameTests */,
+				3BA9F36F195D0A9A00006D46 /* Frameworks */,
+				3BA9F36E195D0A9A00006D46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA9F36E195D0A9A00006D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA9F36D195D0A9A00006D46 /* Profit Trader.app */,
+				3BA9F391195D0A9A00006D46 /* Profit TraderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA9F36F195D0A9A00006D46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A3FACA41D1C8181003FF42B /* Chartboost.framework */,
+				3A7608D21A5082E300734EC7 /* SystemConfiguration.framework */,
+				3A7608D01A5082D800734EC7 /* Security.framework */,
+				3A7608CE1A5082CE00734EC7 /* QuartzCore.framework */,
+				3A7608CC1A5082C500734EC7 /* MobileCoreServices.framework */,
+				3A7608CA1A5082BC00734EC7 /* CoreLocation.framework */,
+				3A7608C81A5082B100734EC7 /* CFNetwork.framework */,
+				3AF4BCD919834612004C6173 /* AudioToolbox.framework */,
+				3BA9F3AA195D0AC600006D46 /* StoreKit.framework */,
+				3BA9F370195D0A9A00006D46 /* Foundation.framework */,
+				3BA9F372195D0A9A00006D46 /* CoreGraphics.framework */,
+				3BA9F374195D0A9A00006D46 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BA9F376195D0A9A00006D46 /* TradeGame */ = {
+			isa = PBXGroup;
+			children = (
+				3BA9F382195D0A9A00006D46 /* Main_iPhone.storyboard */,
+				3BA9F385195D0A9A00006D46 /* Main_iPad.storyboard */,
+				3BA9F3AE195D0B0100006D46 /* MenuViewController.h */,
+				3BA9F3AF195D0B0100006D46 /* MenuViewController.m */,
+				3A090ABE197D8CDA00E0BD1C /* OptionViewController.h */,
+				3A090ABF197D8CDA00E0BD1C /* OptionViewController.m */,
+				3BA9F3B1195D0B0900006D46 /* GameViewController.h */,
+				3BA9F3B2195D0B0900006D46 /* GameViewController.m */,
+				3A090A74197B5EF500E0BD1C /* TopSecretViewController.h */,
+				3A090A75197B5EF500E0BD1C /* TopSecretViewController.m */,
+				3BA9F38B195D0A9A00006D46 /* Images.xcassets */,
+				3BA9F377195D0A9A00006D46 /* Supporting Files */,
+			);
+			path = TradeGame;
+			sourceTree = "<group>";
+		};
+		3BA9F377195D0A9A00006D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA9F37F195D0A9A00006D46 /* AppDelegate.h */,
+				3BA9F380195D0A9A00006D46 /* AppDelegate.m */,
+				3BA9F378195D0A9A00006D46 /* Profit Trader-Info.plist */,
+				3BA9F379195D0A9A00006D46 /* InfoPlist.strings */,
+				3BA9F37C195D0A9A00006D46 /* main.m */,
+				3BA9F37E195D0A9A00006D46 /* Profit Trader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BA9F398195D0A9A00006D46 /* TradeGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA9F39E195D0A9A00006D46 /* TradeGameTests.m */,
+				3BA9F399195D0A9A00006D46 /* Supporting Files */,
+			);
+			path = TradeGameTests;
+			sourceTree = "<group>";
+		};
+		3BA9F399195D0A9A00006D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA9F39A195D0A9A00006D46 /* Profit TraderTests-Info.plist */,
+				3BA9F39B195D0A9A00006D46 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA9F36C195D0A9A00006D46 /* Profit Trader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA9F3A2195D0A9A00006D46 /* Build configuration list for PBXNativeTarget "Profit Trader" */;
+			buildPhases = (
+				3BA9F369195D0A9A00006D46 /* Sources */,
+				3BA9F36A195D0A9A00006D46 /* Frameworks */,
+				3BA9F36B195D0A9A00006D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Profit Trader";
+			productName = TradeGame;
+			productReference = 3BA9F36D195D0A9A00006D46 /* Profit Trader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BA9F390195D0A9A00006D46 /* Profit TraderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA9F3A5195D0A9A00006D46 /* Build configuration list for PBXNativeTarget "Profit TraderTests" */;
+			buildPhases = (
+				3BA9F38D195D0A9A00006D46 /* Sources */,
+				3BA9F38E195D0A9A00006D46 /* Frameworks */,
+				3BA9F38F195D0A9A00006D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA9F397195D0A9A00006D46 /* PBXTargetDependency */,
+			);
+			name = "Profit TraderTests";
+			productName = TradeGameTests;
+			productReference = 3BA9F391195D0A9A00006D46 /* Profit TraderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA9F365195D0A9A00006D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "TStevenson Apps";
+				TargetAttributes = {
+					3BA9F36C195D0A9A00006D46 = {
+						DevelopmentTeam = Q443KXN5V7;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
+					3BA9F390195D0A9A00006D46 = {
+						TestTargetID = 3BA9F36C195D0A9A00006D46;
+					};
+				};
+			};
+			buildConfigurationList = 3BA9F368195D0A9A00006D46 /* Build configuration list for PBXProject "Profit Trader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA9F364195D0A9A00006D46;
+			productRefGroup = 3BA9F36E195D0A9A00006D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA9F36C195D0A9A00006D46 /* Profit Trader */,
+				3BA9F390195D0A9A00006D46 /* Profit TraderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA9F36B195D0A9A00006D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA9F387195D0A9A00006D46 /* Main_iPad.storyboard in Resources */,
+				3BA9F38C195D0A9A00006D46 /* Images.xcassets in Resources */,
+				3BA9F384195D0A9A00006D46 /* Main_iPhone.storyboard in Resources */,
+				3BA9F37B195D0A9A00006D46 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA9F38F195D0A9A00006D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA9F39D195D0A9A00006D46 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA9F369195D0A9A00006D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA9F3B3195D0B0900006D46 /* GameViewController.m in Sources */,
+				3A090AC0197D8CDA00E0BD1C /* OptionViewController.m in Sources */,
+				3A090A76197B5EF500E0BD1C /* TopSecretViewController.m in Sources */,
+				3BA9F381195D0A9A00006D46 /* AppDelegate.m in Sources */,
+				3BA9F3B0195D0B0100006D46 /* MenuViewController.m in Sources */,
+				3BA9F37D195D0A9A00006D46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA9F38D195D0A9A00006D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA9F39F195D0A9A00006D46 /* TradeGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA9F397195D0A9A00006D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA9F36C195D0A9A00006D46 /* Profit Trader */;
+			targetProxy = 3BA9F396195D0A9A00006D46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BA9F379195D0A9A00006D46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA9F37A195D0A9A00006D46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BA9F382195D0A9A00006D46 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA9F383195D0A9A00006D46 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA9F385195D0A9A00006D46 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA9F386195D0A9A00006D46 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA9F39B195D0A9A00006D46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA9F39C195D0A9A00006D46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AF4BCFE198BD01E004C6173 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trevor Stevenson (Q443KXN5V7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Trevor Stevenson (Q443KXN5V7)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "628fa8f6-fd09-4b86-9312-6a461ddbbc30";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		3AF4BCFF198BD01E004C6173 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Profit Trader.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TradeGame/Profit Trader-Prefix.pch";
+				INFOPLIST_FILE = "TradeGame/Profit Trader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncunited.Profit-Trader";
+				PRODUCT_NAME = "Profit Trader";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TradeGame/Profit Trader-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		3AF4BD00198BD01E004C6173 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TradeGame.app/TradeGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TradeGame/TradeGame-Prefix.pch";
+				INFOPLIST_FILE = "TradeGameTests/Profit TraderTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncunited.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Profit TraderTests";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
+		3BA9F3A0195D0A9A00006D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trevor Stevenson (Q443KXN5V7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Trevor Stevenson (Q443KXN5V7)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "628fa8f6-fd09-4b86-9312-6a461ddbbc30";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BA9F3A1195D0A9A00006D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trevor Stevenson (Q443KXN5V7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Trevor Stevenson (Q443KXN5V7)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "628fa8f6-fd09-4b86-9312-6a461ddbbc30";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA9F3A3195D0A9A00006D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Profit Trader.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TradeGame/Profit Trader-Prefix.pch";
+				INFOPLIST_FILE = "TradeGame/Profit Trader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncunited.Profit-Trader";
+				PRODUCT_NAME = "Profit Trader";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TradeGame/Profit Trader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BA9F3A4195D0A9A00006D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Profit Trader.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TradeGame/Profit Trader-Prefix.pch";
+				INFOPLIST_FILE = "TradeGame/Profit Trader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncunited.Profit-Trader";
+				PRODUCT_NAME = "Profit Trader";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TradeGame/Profit Trader-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BA9F3A6195D0A9A00006D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TradeGame.app/TradeGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TradeGame/TradeGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TradeGameTests/Profit TraderTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncunited.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Profit TraderTests";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3BA9F3A7195D0A9A00006D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TradeGame.app/TradeGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TradeGame/TradeGame-Prefix.pch";
+				INFOPLIST_FILE = "TradeGameTests/Profit TraderTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncunited.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Profit TraderTests";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA9F368195D0A9A00006D46 /* Build configuration list for PBXProject "Profit Trader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA9F3A0195D0A9A00006D46 /* Debug */,
+				3BA9F3A1195D0A9A00006D46 /* Release */,
+				3AF4BCFE198BD01E004C6173 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA9F3A2195D0A9A00006D46 /* Build configuration list for PBXNativeTarget "Profit Trader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA9F3A3195D0A9A00006D46 /* Debug */,
+				3BA9F3A4195D0A9A00006D46 /* Release */,
+				3AF4BCFF198BD01E004C6173 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA9F3A5195D0A9A00006D46 /* Build configuration list for PBXNativeTarget "Profit TraderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA9F3A6195D0A9A00006D46 /* Debug */,
+				3BA9F3A7195D0A9A00006D46 /* Release */,
+				3AF4BD00198BD01E004C6173 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA9F365195D0A9A00006D46 /* Project object */;
+}
