@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Chartboost/Chartboost.h>
 
-@interface MenuViewController : UIViewController <ChartboostDelegate>
+@interface MenuViewController : UIViewController
 
 - (IBAction)moreGames:(id)sender;
 - (IBAction)follow:(id)sender;
-- (IBAction)earnMoney:(id)sender;
 
 @end
