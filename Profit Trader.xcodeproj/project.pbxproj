@@ -49,7 +49,6 @@
 		3A090A75197B5EF500E0BD1C /* TopSecretViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSecretViewController.m; sourceTree = "<group>"; };
 		3A090ABE197D8CDA00E0BD1C /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
 		3A090ABF197D8CDA00E0BD1C /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
-		3A3FACA41D1C8181003FF42B /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
 		3A7608C81A5082B100734EC7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3A7608CA1A5082BC00734EC7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3A7608CC1A5082C500734EC7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -136,7 +135,6 @@
 		3BA9F36F195D0A9A00006D46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A3FACA41D1C8181003FF42B /* Chartboost.framework */,
 				3A7608D21A5082E300734EC7 /* SystemConfiguration.framework */,
 				3A7608D01A5082D800734EC7 /* Security.framework */,
 				3A7608CE1A5082CE00734EC7 /* QuartzCore.framework */,

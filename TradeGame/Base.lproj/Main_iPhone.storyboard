@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="L61-T8-HYU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="L61-T8-HYU">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -82,46 +82,14 @@
                                     <constraint firstAttribute="width" constant="63" id="xep-86-I6v"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKa-Ny-O6a">
-                                <rect key="frame" x="20" y="593" width="72" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="72" id="D3j-v5-Zdv"/>
-                                    <constraint firstAttribute="height" constant="54" id="tdx-dD-KZ4"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="Follow Us!" backgroundImage="standardButton">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="follow:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kLc-bq-k3E"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vem-hF-eD9">
-                                <rect key="frame" x="283" y="593" width="72" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="72" id="TMm-4I-FhS"/>
-                                    <constraint firstAttribute="height" constant="54" id="giS-rM-hHy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <state key="normal" title="More Games" backgroundImage="standardButton">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="moreGames:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZCq-Hl-0qw"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Vem-hF-eD9" secondAttribute="bottom" constant="20" id="59o-39-lBU"/>
                             <constraint firstItem="mcr-S0-NPL" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="48" id="6zg-27-g4U"/>
                             <constraint firstItem="f0w-I1-GsS" firstAttribute="top" secondItem="mcr-S0-NPL" secondAttribute="top" constant="-4" id="8MN-fr-DPv"/>
                             <constraint firstItem="PeX-eY-Pud" firstAttribute="centerX" secondItem="f0w-I1-GsS" secondAttribute="centerX" constant="-0.5" id="Bqh-gX-tPZ"/>
                             <constraint firstItem="PeX-eY-Pud" firstAttribute="centerY" secondItem="r11-Hw-OAD" secondAttribute="centerY" id="Gtr-Rh-hPT"/>
                             <constraint firstItem="cAd-Wf-22I" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="48" id="Hzd-OG-Efs"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="KKa-Ny-O6a" secondAttribute="bottom" constant="20" id="KBj-Bp-vkN"/>
                             <constraint firstItem="diE-wD-qVo" firstAttribute="top" secondItem="f0w-I1-GsS" secondAttribute="bottom" id="O84-vm-tRt"/>
                             <constraint firstItem="PeX-eY-Pud" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="PjS-yC-1aL"/>
                             <constraint firstItem="f0w-I1-GsS" firstAttribute="leading" secondItem="mcr-S0-NPL" secondAttribute="trailing" constant="9" id="Q5q-DI-uKc"/>
@@ -130,9 +98,7 @@
                             <constraint firstItem="diE-wD-qVo" firstAttribute="leading" secondItem="mcr-S0-NPL" secondAttribute="trailing" constant="9" id="WNy-JB-md2"/>
                             <constraint firstItem="cAd-Wf-22I" firstAttribute="leading" secondItem="f0w-I1-GsS" secondAttribute="trailing" constant="8" id="dJX-HT-kBX"/>
                             <constraint firstItem="PeX-eY-Pud" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="loZ-11-zMy"/>
-                            <constraint firstAttribute="trailing" secondItem="Vem-hF-eD9" secondAttribute="trailing" constant="20" id="maL-My-oM3"/>
                             <constraint firstItem="PeX-eY-Pud" firstAttribute="centerX" secondItem="r11-Hw-OAD" secondAttribute="centerX" id="plf-VU-lhL"/>
-                            <constraint firstItem="KKa-Ny-O6a" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="t0v-lH-xUB"/>
                             <constraint firstAttribute="trailing" secondItem="PeX-eY-Pud" secondAttribute="trailing" id="zIq-ri-Hxz"/>
                         </constraints>
                     </view>

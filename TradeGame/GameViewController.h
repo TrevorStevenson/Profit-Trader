@@ -29,7 +29,6 @@
 @property (nonatomic) int crashDay;
 @property (nonatomic) int rallyDay;
 
-
 //floats
 @property (nonatomic) float currentPrice;
 @property (nonatomic) float changeInPrice;

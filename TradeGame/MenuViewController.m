@@ -3,11 +3,10 @@
 //  TradeGame
 //
 //  Created by Trevor Stevenson on 6/26/14.
-//  Copyright (c) 2014 NCUnited. All rights reserved.
+//  Copyright (c) 2014 TStevenson Apps. All rights reserved.
 //
 
 #import "MenuViewController.h"
-#import <Chartboost/Chartboost.h>
 
 @interface MenuViewController ()
 
@@ -29,8 +28,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [Chartboost setDelegate:self];
-    
     self.navigationController.navigationBarHidden = YES;
     
 }
@@ -45,27 +42,14 @@
 {
     [super viewWillAppear:animated];
     
-   
 }
 
--(void)didCompleteRewardedVideo:(CBLocation)location withReward:(int)reward
-{
-
-    NSLog(@"completed");
-    
-    NSNumber *money = [NSNumber numberWithInt:[[[NSUserDefaults standardUserDefaults] objectForKey:@"moneyAdded"] intValue]];
-    
-    int newMoney = [money intValue] + 1000;
-    
-    NSNumber *moneyToAdd = [NSNumber numberWithInt:newMoney];
-    
-    [[NSUserDefaults standardUserDefaults] setObject:moneyToAdd forKey:@"moneyAdded"];
-    
-}
 
 - (IBAction)moreGames:(id)sender {
     
-    [Chartboost showMoreApps:CBLocationMainMenu];
+    NSURL *otherAppsURL = [NSURL URLWithString:@"https://itunes.apple.com/developer/trevor-stevenson/id904381709"];
+    
+    [[UIApplication sharedApplication] openURL:otherAppsURL];
     
 }
 
@@ -84,9 +68,4 @@
     
 }
 
-- (IBAction)earnMoney:(id)sender {
-    
-    [Chartboost showRewardedVideo:CBLocationMainMenu];
-    
-}
 @end

@@ -516,8 +516,7 @@
 }
     
 - (IBAction)beginDayButton:(UIButton *)sender
-{
-
+{    
     NSLog(@"Yes");
     self.beginButtonOutlet.enabled = NO;
     
