@@ -307,11 +307,11 @@
     
     if (self.inventoryCount == 1)
     {
-        self.inventoryLabel.text = [NSString stringWithFormat:@"You have %d item", self.inventoryCount];
+        self.inventoryLabel.text = [NSString stringWithFormat:@"%d item", self.inventoryCount];
     }
     else
     {
-        self.inventoryLabel.text = [NSString stringWithFormat:@"You have %d items", self.inventoryCount];
+        self.inventoryLabel.text = [NSString stringWithFormat:@"%d items", self.inventoryCount];
     }
     
     self.priceChangeLabel.text = [NSString stringWithFormat:@"$%@", [formatter stringFromNumber:[NSNumber numberWithFloat:self.changeInPrice]]];
