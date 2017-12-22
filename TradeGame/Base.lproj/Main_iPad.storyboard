@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="rf3-rg-kfb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="rf3-rg-kfb">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="-483" y="-83"/>
         </scene>
-        <!--Menu View Controller-->
+        <!--View Controller-->
         <scene sceneID="X7g-pi-Fkb">
             <objects>
-                <viewController id="LMS-K8-cG1" customClass="MenuViewController" sceneMemberID="viewController">
+                <viewController id="LMS-K8-cG1" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JjH-gp-zXv"/>
                         <viewControllerLayoutGuide type="bottom" id="tWY-Yo-Plu"/>
@@ -81,48 +80,22 @@
                                     <segue destination="tp2-9h-cDV" kind="push" id="L4h-kB-Bk0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIn-C6-J4R">
-                                <rect key="frame" x="40" y="888" width="128" height="96"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Follow Us!" backgroundImage="standardButton">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="follow:" destination="LMS-K8-cG1" eventType="touchUpInside" id="4Xc-we-FpR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbZ-bk-KwZ">
-                                <rect key="frame" x="600" y="888" width="128" height="96"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="More Games" backgroundImage="standardButton">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="moreGames:" destination="LMS-K8-cG1" eventType="touchUpInside" id="RCV-65-ZvE"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tWY-Yo-Plu" firstAttribute="top" secondItem="pGF-Kl-KO8" secondAttribute="bottom" id="0Fi-7y-WVf"/>
                             <constraint firstItem="FtY-iO-Due" firstAttribute="centerX" secondItem="WJl-EJ-QJ7" secondAttribute="centerX" id="4Sf-lO-W81"/>
                             <constraint firstItem="yvT-Ew-Ez7" firstAttribute="centerY" secondItem="Omv-rB-eTB" secondAttribute="centerY" id="80T-aF-wJi"/>
-                            <constraint firstItem="FIn-C6-J4R" firstAttribute="leading" secondItem="XMV-Ug-Cd9" secondAttribute="leading" constant="40" id="BOV-2g-taU"/>
                             <constraint firstItem="pGF-Kl-KO8" firstAttribute="leading" secondItem="XMV-Ug-Cd9" secondAttribute="leading" id="BfM-0e-RY4"/>
                             <constraint firstItem="Omv-rB-eTB" firstAttribute="top" secondItem="WJl-EJ-QJ7" secondAttribute="bottom" constant="-64" id="FCA-ld-cJ0"/>
                             <constraint firstItem="FtY-iO-Due" firstAttribute="top" secondItem="WJl-EJ-QJ7" secondAttribute="bottom" constant="-11" id="Jil-fR-jUF"/>
                             <constraint firstItem="WJl-EJ-QJ7" firstAttribute="centerX" secondItem="pGF-Kl-KO8" secondAttribute="centerX" id="L7S-ug-zxK"/>
                             <constraint firstAttribute="trailing" secondItem="pGF-Kl-KO8" secondAttribute="trailing" id="PPF-aU-uSp"/>
-                            <constraint firstItem="tWY-Yo-Plu" firstAttribute="top" secondItem="JbZ-bk-KwZ" secondAttribute="bottom" constant="40" id="WnX-bk-sE5"/>
                             <constraint firstItem="WJl-EJ-QJ7" firstAttribute="leading" secondItem="yvT-Ew-Ez7" secondAttribute="trailing" constant="11" id="YUE-LI-Uu3"/>
                             <constraint firstItem="X31-N5-Jpf" firstAttribute="centerY" secondItem="pGF-Kl-KO8" secondAttribute="centerY" id="ZCk-vS-SRZ"/>
                             <constraint firstItem="pGF-Kl-KO8" firstAttribute="top" secondItem="XMV-Ug-Cd9" secondAttribute="top" id="d38-rZ-TJu"/>
                             <constraint firstItem="Omv-rB-eTB" firstAttribute="leading" secondItem="WJl-EJ-QJ7" secondAttribute="trailing" constant="10" id="hXn-iF-H7b"/>
-                            <constraint firstItem="tWY-Yo-Plu" firstAttribute="top" secondItem="FIn-C6-J4R" secondAttribute="bottom" constant="40" id="jxr-qZ-Oi1"/>
                             <constraint firstItem="X31-N5-Jpf" firstAttribute="centerX" secondItem="pGF-Kl-KO8" secondAttribute="centerX" id="kok-5L-iJg"/>
-                            <constraint firstAttribute="trailing" secondItem="JbZ-bk-KwZ" secondAttribute="trailing" constant="40" id="ncZ-lX-M6h"/>
                             <constraint firstItem="pGF-Kl-KO8" firstAttribute="top" secondItem="WJl-EJ-QJ7" secondAttribute="bottom" constant="-200" id="w8C-6M-Y10"/>
                         </constraints>
                     </view>
@@ -352,17 +325,17 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="YLR-9U-rzM">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDH-UR-OPj">
-                                <rect key="frame" x="210" y="60" width="348" height="60"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulations Subject #219" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDH-UR-OPj">
+                                <rect key="frame" x="104.5" y="60" width="560" height="55"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="40"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RWS-OV-CuC">
-                                <rect key="frame" x="40" y="140" width="688" height="660"/>
+                                <rect key="frame" x="40" y="135" width="688" height="665"/>
                                 <string key="text">You have completed the ultimate task.  With this accomplishment, you have been inducted into the top secret society of traders.  You are no longer known as your birth-given name; you are #219.  We will be contacting you shortly with your next mission.</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keR-RF-cye">

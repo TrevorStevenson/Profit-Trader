@@ -54,17 +54,6 @@
    
 }
 
--(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    
-    if (buttonIndex == 1)
-    {
-        [self performSegueWithIdentifier:@"newGame" sender:self];
-    }
-    
-    
-}
-
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -87,19 +76,27 @@
 }
 
 
-- (IBAction)newGame:(UIButton *)sender {
-    
+- (IBAction)newGame:(UIButton *)sender
+{
     if (self.shouldPrompt)
     {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Are you sure?" message:@"You will lose all of the progress from your previous game and start over." delegate:self cancelButtonTitle:nil otherButtonTitles:@"No", @"Yes", nil];
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Are you sure?" message:@"You will lose all of the progress from your previous game and start over." preferredStyle:UIAlertControllerStyleAlert];
         
-        [alert show];
+        [alert addAction:[UIAlertAction actionWithTitle:@"No" style:UIAlertActionStyleCancel handler:nil]];
+        
+        [alert addAction:[UIAlertAction actionWithTitle:@"Yes" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            
+            [self performSegueWithIdentifier:@"newGame" sender:self];
+            
+        }]];
+        
+        
+        [self presentViewController:alert animated:YES completion:nil];
     }
     else
     {
         [self performSegueWithIdentifier:@"newGame" sender:self];
     }
-    
 }
 
 - (IBAction)continueAction:(UIButton *)sender {

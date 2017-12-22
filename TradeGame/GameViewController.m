@@ -96,9 +96,6 @@
         {
             [self.beginButtonOutlet setTitle:@"Resume" forState:UIControlStateNormal];
         }
-        
-
-
     }
     
     //sets the labels onscreen after properties have been set
@@ -113,17 +110,15 @@
     [self saveGameData];
     
     [self stopEverything];
-    
-   
 }
 
 -(void)newGame
 {
-    
     //sets all of the properties for a brand new game
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
-    if ([defaults objectForKey:@"moneyAdded"] == 0) {
+    if ([defaults objectForKey:@"moneyAdded"] == 0)
+    {
         self.moneyCount = 100.00;
     }
     else
@@ -153,8 +148,6 @@
     
     //tells the device to no longer make a new game
     [[NSUserDefaults standardUserDefaults] setObject:@"NO" forKey:@"newGame"];
-
-    
 }
 
 -(void)saveGameData
@@ -195,14 +188,10 @@
     [[NSUserDefaults standardUserDefaults] setObject:crashDay forKey:@"crashDay"];
     
     [[NSUserDefaults standardUserDefaults] setObject:rallyDay forKey:@"rallyDay"];
-
-
-
 }
 
 -(void)startDayTimer
 {
-    
     //decreases the seconds by 1.
     self.clockSeconds--;
     
@@ -264,7 +253,6 @@
         [self saveGameData];
         
     }
-    
 }
 
 -(void)updateElements
